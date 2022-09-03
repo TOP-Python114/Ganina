@@ -12,8 +12,6 @@
 """
 import itertools
 
-set_per = {'a', 'b', 'c'}
-
 
 def permutations(set_p):
     list_var = []
@@ -28,9 +26,11 @@ def permutations(set_p):
         yield list_var[j]
 
 
+set_per = {'a', 'b', 'c'}
 per = permutations(set_per)
 for n in per:
     print(n)
+
 
 """
 bca

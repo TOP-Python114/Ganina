@@ -15,9 +15,9 @@ for i in ['черви', 'бубны', 'пики', 'крести']:
 for _ in card_list:
     print(next(numbers_iterator))
 
+
 # Реализуйте функцию-генератор для получения перемешанной колоды.
 # Подсказка: используйте функцию choice() из модуля random
-
 
 def mix_card(cards):
     card_list_mix = []
@@ -32,6 +32,7 @@ print("\nПеремешанная колода карт:")
 deck_mix_card = mix_card(card_list)
 for i in deck_mix_card:
     print(i)
+
 
 """
 (1, 'черви')
